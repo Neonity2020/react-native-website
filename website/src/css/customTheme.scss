@@ -166,7 +166,7 @@ html[data-theme="dark"] {
   --home-button-secondary: #1b1b1d;
   --home-button-secondary-text: #f6f7f9;
   --home-button-secondary-border: #4e5668;
-  --home-button-secondary-hover: #2b2b2d;
+  --home-button-secondary-hover: #1f1f21;
   --home-hero-devices-border: #404756;
   --home-hero-devices-stop: #4a5160;
   --home-hero-devices-skeleton-element: #404756;
@@ -703,6 +703,9 @@ html[data-theme="light"] {
 /* Home page */
 
 .homepage {
+  width: 100%;
+  max-width: 100%;
+
   div[class*="codeBlockContainer"] {
     margin-bottom: 0;
     overflow: visible;
